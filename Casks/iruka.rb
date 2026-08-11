@@ -1,11 +1,11 @@
 cask "iruka" do
-  version "1.1.6.0"
-  sha256 "933a7de192702e7dd6d9651e1799183fd935f4cdf432e29da0fcfd9a3be553b6"
+  version "1.1.7.0"
+  sha256 "f68957031694546844cd0ec05b82f674447e88fc2e610b16724d5726e84a2f24"
 
   url "https://github.com/dorienh/iruka-releases/releases/download/v#{version}/Iruka-#{version}.dmg"
   name "Iruka"
   desc "File manager with an embedded terminal"
-  homepage "https://iruka.dorienherremans.com/"
+  homepage "https://iruka.sh/"
 
   livecheck do
     url "https://raw.githubusercontent.com/dorienh/iruka-releases/main/appcast.xml"
