@@ -14,7 +14,7 @@ cask "iruka" do
 
   # Sparkle updates the app itself; without this brew would fight it.
   auto_updates true
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Iruka.app"
 
