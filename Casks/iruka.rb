@@ -1,6 +1,6 @@
 cask "iruka" do
-  version "1.1.8.3"
-  sha256 "e9ad697f74a6b8dfaf91ff536565ac18194dd0879ffd827c3f6ccfe295f223eb"
+  version "1.2.0.0"
+  sha256 "b936c7302a4350ded2b12158b0c8898e86ab75c5121e52b5982ab2c22601554b"
 
   url "https://github.com/dorienh/iruka-releases/releases/download/v#{version}/Iruka-#{version}.dmg"
   name "Iruka"
@@ -19,6 +19,7 @@ cask "iruka" do
   app "Iruka.app"
 
   zap trash: [
+    "~/Library/Application Support/Iruka",
     "~/Library/Application Support/dorienherremans.com.Iruka",
     "~/Library/Caches/dorienherremans.com.Iruka",
     "~/Library/Containers/dorienherremans.com.Iruka.FinderSync",
