@@ -1,6 +1,6 @@
 cask "iruka" do
-  version "1.2.0.0"
-  sha256 "b936c7302a4350ded2b12158b0c8898e86ab75c5121e52b5982ab2c22601554b"
+  version "1.2.0.1"
+  sha256 "71d272ce208d8cabfc7f0db0e34f0560e6c3451157711896898e02f0e83c6f59"
 
   url "https://github.com/dorienh/iruka-releases/releases/download/v#{version}/Iruka-#{version}.dmg"
   name "Iruka"
