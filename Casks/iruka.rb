@@ -1,6 +1,6 @@
 cask "iruka" do
-  version "1.2.1.0"
-  sha256 "c7080ac3c05c1289841a5bd46024a9c42e134c6adb88e4637b38a63325c57048"
+  version "1.2.1.1"
+  sha256 "9a39869f95ace707f1fd80d612a30e33c91bc2980d66a7478d668a791f50cfdc"
 
   url "https://github.com/dorienh/iruka-releases/releases/download/v#{version}/Iruka-#{version}.dmg"
   name "Iruka"
@@ -17,6 +17,8 @@ cask "iruka" do
   depends_on macos: :sonoma
 
   app "Iruka.app"
+  # The `iruka` command (open a folder, reveal a file) ships inside the app.
+  binary "#{appdir}/Iruka.app/Contents/Resources/iruka"
 
   zap trash: [
     "~/Library/Application Support/Iruka",
